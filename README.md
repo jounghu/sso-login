@@ -149,4 +149,4 @@ sso-server:8080
 
 ### 代码地址
 
-[sso-login]()
+[sso-login](https://github.com/jounghu/sso-login) 一个乐于分享的程序员

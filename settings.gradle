@@ -1,0 +1,4 @@
+rootProject.name = 'sso-login-demo'
+include('sso-server')
+include('app1')
+include('app2')

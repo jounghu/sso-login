@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>login page</title>
+</head>
+<body>
+
+
+<div class="col-md-6" th:text="${login_message}">
+
+</div> 
+
+<form action="/dologin" method="post">
+    <p>name: <input type="text" name="username"></p>
+    <p>password: <input type="password" name="password"></p>
+    <input type="submit" value="提交">
+</form>
+
+</body>
+</html>
